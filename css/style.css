@@ -1,0 +1,55 @@
+/* reset */
+body{
+    font-family: Arial, sans-serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* gestion de mes titres*/
+h1{
+    font-size: 2em;
+    color: #1c6aab;
+    text-align: center;
+}
+/* gestion de l'image du header*/
+.mainImg{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+}
+/* me permet de gerer le conteneur qui contient l'image le titre et le slogan */
+.containerHead{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+/* gestion du nom et slogan du header*/
+.bienvenue{
+    margin-left:-20%;
+    margin-top: 10%;
+    font-size: 5rem;    
+    color: #1c6aab;
+    position: absolute;
+    font-family:fantasy;
+}
+.slogan{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #1c6aab;
+    margin-left: -20%;
+    margin-top: 16%;
+    font-size: 2rem;
+    color: #ffffff;
+    position: absolute;
+    font-family:fantasy;
+}
+.blue{
+    color: #1c6aab;
+}
+
+.x{
+    color: #1c6aab;
+    font-size: 1.5rem;
+}
