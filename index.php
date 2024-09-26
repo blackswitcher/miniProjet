@@ -17,7 +17,7 @@
         <section>
             <div>
                 <h1 class="h1">Accueil</h1>
-                <p>voici ma page d'accueil </p>
+                <p></p>
             </div>
         </section>
     </main>
