@@ -53,3 +53,16 @@ h1{
     color: #1c6aab;
     font-size: 1.5rem;
 }
+
+.boxArticle{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    border : 2px solid #1c6aab;
+    border-radius: 10px;
+    padding: 10px;
+    color: aqua;
+    gap:4%;
+}

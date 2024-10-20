@@ -1,0 +1,4 @@
+/* empeche les publications sur git mise en place de la connection de la BDD pour eviter les hacks */
+
+/vendor/
+.env

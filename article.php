@@ -19,6 +19,12 @@
         <h1>Articles</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
     </main>
+    <section> <!-- presentation de la rubrique article -->
+        <div class=boxArticle>
+            <h2>Titre de l'article</h2>
+            <p>Contenu de l'article</p>
+        </div>
+</section>
     <footer>
         <!--ici j'inclu mon footer-->
         <?php
