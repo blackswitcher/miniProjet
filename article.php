@@ -11,7 +11,7 @@
 <body>
     <!-- Ici, on inclut le fichier header.php -->
     <?php
-    $title = 'Articles BBO';
+    $title = "Articles BBO";
     $nav = 'articles';
     include_once 'header.php';
 ?>

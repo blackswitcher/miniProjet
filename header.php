@@ -4,17 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-            <!--<?php if (isset($title)) {?>
-              <?php echo $title;?>
+            <?php if (isset($title)){?>
+              <?= $title;// autre maniere d'afficher un echo (short syntaxe)?>
       <?php } else {  ?>
         Blue Bird Online
-      <?php } ?>-->
-      
-      <!--<?php if (isset($title)) {?>
-        <?php echo $title;?>
-      <?php } else {  ?>
-        Blue Bird Online
-      <?php } ?>-->
+      <?php } ?>
     </title>
         <!-- lien avec mon fchier css -->
         <link rel="stylesheet" href="CSS/style.css">

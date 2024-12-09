@@ -9,7 +9,7 @@
     <link href="projetYT/css/style.css" rel="stylesheet">
 </head>
 <body><?php
-    $title = 'Accueil BBO';
+    $title = "Accueil BBO";
     $nav = 'index';
     include_once 'header.php';
 ?>
