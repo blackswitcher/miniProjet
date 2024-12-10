@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,12 +13,12 @@
       <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
     </a>
 
-    <ul class="nav col-md-4 justify-content-end">
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+    <ul class="colorFooter nav col-md-4 justify-content-end">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Accueil</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Aricles</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Commandes</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Clients</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Connection/Insciption</a></li>
     </ul>
   </footer>
 </body>
