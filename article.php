@@ -17,7 +17,7 @@
 ?>
     <main>
         <h1>Articles</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
+        <p class=bobo >Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
     </main>
     <section> <!-- presentation de la rubrique article -->
         <div class=boxArticle>
