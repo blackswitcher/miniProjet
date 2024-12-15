@@ -94,9 +94,7 @@ $supplements = [
                 </label>
             </div>
         <?php endforeach; ?>
-        <?php
-    var_dump($_GET); // Place ça ici pour voir le contenu de $_GET
-?>
+        <?php var_dump($_GET); ?>
         <?php foreach ($cornets as $cornet => $prix): ?>
             <div class="checkbox">
                 <label>
@@ -107,6 +105,7 @@ $supplements = [
                 </label>
             </div>
         <?php endforeach; ?>
+        <?php var_dump($_GET); ?>
         <?php foreach ($supplements as $supplement => $prix): ?>
             <div class="checkbox">
                 <label>
