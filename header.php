@@ -1,3 +1,4 @@
+<?php require_once 'modal.php'?><!-- inclusion du modal -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,14 +36,12 @@
           <a class="nav-link <?php echo !empty($client)?"active":"" ?>" href="client.php"> Clients</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Connexion / Inscription
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="">Connexion</a></li>
-            <li><a class="dropdown-item" href="">Inscription</a></li>
-          </ul>
-        </li>
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Connexion / Inscription</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#connexionModal">Connexion</a></li>
+                            <li><a class="dropdown-item" href="inscription.php">Inscription</a></li>
+                        </ul>
+                    </li>
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="rechercher un article" aria-label="Search">
