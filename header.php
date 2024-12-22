@@ -1,4 +1,6 @@
 <?php require_once 'modal.php'?><!-- inclusion du modal -->
+<?php require_once 'function.php'?> <!-- inclusion des fonctions  -->
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,11 +38,16 @@
           <a class="nav-link <?php echo !empty($client)?"active":"" ?>" href="client.php"> Clients</a>
         </li>
         <li class="nav-item dropdown">
+        <?php if (isset($_SESSION['client'])): ?>
+        <!-- si la session du client est ouverte alors on affiche deconnexion sinon on affiche connexion/inscription-->
+            <a class='navlink' href="deconnexion.php">Deconnexion</a>
+        <?php else: ?>
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Connexion / Inscription</a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#connexionModal">Connexion</a></li>
                             <li><a class="dropdown-item" href="inscription.php">Inscription</a></li>
                         </ul>
+        <?php endif; ?>
                     </li>
       </ul>
       <form class="d-flex" role="search">
